@@ -1,6 +1,6 @@
 # Phishing Email Analysis and Defensive Measures
 
-This repository documents an analysis of a phishing email, highlighting methods used to investigate and identify malicious intent.
+The analysis of a phishing email, highlighting methods used to investigate and identify malicious intent.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -33,6 +33,7 @@ This project showcases a practical approach to identifying and mitigating a phis
 - **Client IP:** `173.209.60.250`
 
 - ![EMAIL](https://github.com/user-attachments/assets/ea1d576f-e97a-45ed-89e5-7f7f3ffdbbb7)
+![FILE NAME AND SIZE](https://github.com/user-attachments/assets/3a14bcad-da17-4edb-916d-5564f28f1407)
 
 ---
 
@@ -48,6 +49,7 @@ The email header revealed the following suspicious details:
 
 ![HTTP](https://github.com/user-attachments/assets/b5f0d41f-d5a3-4473-b172-942164c9b20b)
 
+
 ### Attachment Hash Verification
 Using PowerShell, the following hashes were generated for the attachment:
 - **SHA256:** `39166946342DDB09216FDAECCBDA9868E4686B293060AF5A16578999D581BFC0`
@@ -58,7 +60,7 @@ Using PowerShell, the following hashes were generated for the attachment:
 
 ### URL Investigation
 The URLs embedded in the email pointed to domains like `e-narucivanje.com`, which were flagged as malicious. They led to credential harvesting attempts disguised as legitimate forms.
-![FILE NAME AND SIZE](https://github.com/user-attachments/assets/3a14bcad-da17-4edb-916d-5564f28f1407)
+![image](https://github.com/user-attachments/assets/575910a5-eaaa-4eb2-a793-7fe7a38dcfe3)
 
 ---
 
